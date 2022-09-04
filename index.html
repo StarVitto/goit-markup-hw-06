@@ -66,7 +66,58 @@
                 <use href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
               </svg>
             </button>
-            <p></p>
+            <form class="modal-form">
+              <p class="form-title">Залиште свої дані, ми Вам передзвонимо</p>
+              <div class="form-field">
+                <label class="form-label" for="name">Ім'я</label>
+                <div class="input-svg">
+                  <input class="form-input text-name" type="text" name="name" id="name" />
+                  <svg class="name-svg" width="18px" height="18px">
+                    <use href="./images/symbol-defs.svg#icon-person-black"></use>
+                  </svg>
+                </div>
+
+                <label class="form-label" for="tel">Телефон</label>
+                <div class="input-svg">
+                  <input class="form-input" type="tel" name="tel" id="tel" />
+                  <svg class="name-svg" width="18px" height="18px">
+                    <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+                  </svg>
+                </div>
+
+                <label class="form-label" for="mail">Ім'я</label>
+                <div class="input-svg">
+                  <input class="form-input" type="email" name="mail" id="mail" />
+                  <svg class="name-svg" width="18px" height="18px">
+                    <use href="./images/symbol-defs.svg#icon-email-black"></use>
+                  </svg>
+                </div>
+
+                <label class="form-label" for="comment">Коментар</label>
+                <textarea
+                  class="form-comment form-input"
+                  name="comment"
+                  id="comment"
+                  cols="30"
+                  rows="10"
+                  placeholder="Введіть текст"
+                ></textarea>
+              </div>
+
+              <div class="checkbox">
+                <label class="checkbox-label"
+                  ><input class="checkbox-input" type="checkbox" name="checkbox" /><span
+                    class="checkbox-svg-border"
+                    ><svg width="16px" height="15px">
+                      <use href="./images/symbol-defs.svg#icon-icon-check"></use></svg
+                  ></span>
+                  Погоджуюся з розсилкою та приймаю
+                  <a class="checkbox-label-link" href="#">Умови договору</a></label
+                >
+              </div>
+
+              <button class="button-modal" type="submit">Відправити</button>
+            </form>
           </div>
         </div>
       </section>
