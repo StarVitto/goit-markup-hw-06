@@ -359,7 +359,7 @@ address {
     color: var(--accent-color);}
 
 .social {
-    margin-right: 93px;}
+    margin-right: auto;}
 
 .sidebar {
     display: flex;
